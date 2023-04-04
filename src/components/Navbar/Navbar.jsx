@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" container mx-auto bg-purple-400">
+    <nav className=" container mx-auto bg-purple-400 pl-2 rounded-md">
       <div onClick={() => setIsOpen(!isOpen)} className="md:hidden">
         <span>
           {isOpen === true ? (
